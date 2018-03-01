@@ -115,7 +115,7 @@ public class MSButton
         if (!clicked)return;
         //System.out.println("Bombs " + countBombs(r, c));
         if (countBombs(r, c) > 0){
-          setLabel(String.valueOf(countBombs(r, c)));
+          setLabel(Integer.toString(countBombs(r, c)));
         }
         else
         for (int i = -1; i<=1; i++){
